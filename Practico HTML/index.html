@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <li><a href="#estructura">Ir a Estructura</a></li>
+            <li><a href="#multimedia">Ir a Multimedia</a></li>
+            <li><a href="#formulario">Ir a Formulario</a></li>
+        </ul>
+    </header>
+    <main>
+        <ol>
+            <li>
+                <h2 id="estructura">Estructura Básica del Documento HTML</h2>
+                <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de matadatos y un título </p>
+            </li>
+            <li>
+                <h3>Encabezados y Propiedades del texto</h3>
+                <h5>Hola soy un h5</h5>
+                <h6>Hola soy un h6</h6>
+
+                <p><b>Este es un texto en negrita.</b></p>
+                <p><i>Este es un texto en cursiva.</i></p> 
+                <p><u>Este es un texto subrayado.</u></p>
+                
+                <!-- Otra forma de hacerlo -->
+                <!-- <p style="font-weight: bold;">Este es un texto en negrita.</p>
+                <p style="font-style: italic;">Este es un texto en cursiva.</p>
+                <p style="text-decoration: underline;">Este es un texto subrayado.</p> -->
+            </li>
+            <li>
+                <div>
+                    <h3>Divisiones y Agrupación de Contenido</h3>
+                    <section>
+                        <h4><b>Sección 1</b></h4>
+                        <p>Contenido de la primera sección agrupada en un div</p>
+                    </section>
+                    <section>
+                        <h4><b>Sección 2</b></h4>
+                        <p>Contenido de la segunda sección agrupada en un div</p>
+                    </section>
+                </div>
+            </li>
+            <li>
+                <h3>Enlace y Listas</h3>
+                <p>Visita nuestro <a href="https://www.youtube.com/@ColmenaTEC" target="_blank">sitio web</a> para mas informacion</p>
+                <nav>
+                    <p>Enlaces internos:</p>
+                    <ul>
+                        <li><a href="#estructura">Ir a Estructura</a></li>
+                        <li><a href="#multimedia">Ir a Multimedia</a></li>
+                        <li><a href="#formulario">Ir a Formulario</a></li>
+                    </ul>
+                </nav>            
+                <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada</li>
+                    <li>Segundo ítem de una lista desordenada</li>
+                </ul>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Primer ítem de una lista ordenada</li>
+                    <li>Segundo ítem de una lista ordenada</li>
+                </ol>
+            </li>
+            <li>
+                <h3 id="multimedia">Elementos Multimedia</h3>
+                <div>
+                    <img src="https://plus.unsplash.com/premium_photo-1723632256384-60dd4173debf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300px" height="200px" alt="Es una imagen de alguien editando">
+                    
+                    <audio controls>
+                        <source src="https://download.blender.org/peach/trailer/trailer_1080p.ogg">
+                    </audio>
+                    <video controls width="500px" height="300px">
+                        <source src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </li>
+            <li>
+                <h3>Tablas</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                        </tr>
+                        <tr>
+                            <td>Dato 3</td>
+                            <td>Dato 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <h3 id="formulario">Formulario</h3>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text"/>
+                    <label>Email:</label>
+                    <input type="email"/>
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </li>
+        </ol>
+    </main>
+    <footer>
+        <p>&copy;Franco Orihuela. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
