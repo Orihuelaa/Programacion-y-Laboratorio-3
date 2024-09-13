@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practico JavaScript</title>
+</head>
+<body>
+
+  <p>Este es el primer párrafo</p>
+  <p>Este es el segundo párrafo</p>
+  <p>Este es el tercer párrafo</p>
+  <button onclick="cambiarColor()">Cambiar color a azul</button>
+
+  <form id="formAlerta">
+    <h1>Ejercicio 2: Formulario con alerta</h1>
+    <label>Ingresa un texto:</label>
+    <input type="text" id="texto">
+    <button type="button" id="btnAlerta">Mostrar Alerta</button>
+  </form>
+
+  <h1>Ejercicio 1: Lista con elementos</h1>
+  <ul id="listaElementos">
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul>
+
+  <h1>Ejercicio 2: Campo de texto y botones</h1>
+  <input type="text" id="campoTexto" placeholder="Ingresa algo">
+  <button id="deshabilitar">Deshailitar Campo</button>
+  <button id="habilitar">Habilitar Campo</button>
+  
+  <h1>Ejercicio 1: Guardar correo en localStorage</h1>
+  <form id="guardarCorreo">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="correo" placeholder="example@gmail.com" required>
+    <button type="submit">Guardar Correo</button>
+</form>
+
+<div id="mostrarCorreo" class="email-container hidden">
+    <p>Correo guardado: <span id="correoGuardado"></span></p>
+    <button id="eliminarCorreo">Eliminar correo guardado</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
